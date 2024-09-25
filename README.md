@@ -33,7 +33,7 @@ repositories {
 
 ```groovy
 // to integrate full PressReader SDK
-dependencies { implementation('com.newspaperdirect.pressreader.android:sdk_full:6.7.0@aar') { transitive = true }}
+dependencies { implementation('com.newspaperdirect.pressreader.android:sdk_full:7.0.1@aar') { transitive = true }}
 ```
 
 *   copy ```pressreader_sdk.xml``` from the sample into your app
@@ -42,7 +42,7 @@ dependencies { implementation('com.newspaperdirect.pressreader.android:sdk_full:
 Explore the features of the PRSDK through the [PressReader SDK - API](/docs/API.md)
 
 ## Configuration
-Explore the ways to configure PRSDK to meet your needs through the [PressReader SDK - Configuration](/docs/Configuration.md)
+Explore the ways to configure PR SDK to meet your needs through the [PressReader SDK - Configuration](/docs/Configuration.md)
 
 # Sample
 
