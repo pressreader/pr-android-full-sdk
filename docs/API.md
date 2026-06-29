@@ -181,7 +181,7 @@ fun openArticle(id: String)
 ```
 
 # Puzzles API
-There is API to open puzzle game by its ID. If something went wrong during executionof openPuzzle() method, it with return Result.failure(Exception). If everything puzzle id is correct and authorized via jwt user is allowed to have access to Puzzle games, a view with puzzle is instantly opened and the method returns Result.Success()
+There is API to open puzzle game by its ID. If something went wrong during executionof openPuzzle() method, it with return Result.failure(Exception). If everything puzzleId is correct and authorized via jwt user is allowed to have access to Puzzle games, a view with puzzle is instantly opened and the method returns Result.Success()
 ```
 suspend fun openPuzzle(
         activity: Activity,
