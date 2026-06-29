@@ -180,6 +180,15 @@ There is a method to open single article view by its ID without downloading whol
 fun openArticle(id: String)
 ```
 
+# Puzzles API
+There is API to open puzzle game by its ID. If something went wrong during executionof openPuzzle() method, it with return Result.failure(Exception). If everything puzzle id is correct and authorized via jwt user is allowed to have access to Puzzle games, a view with puzzle is instantly opened and the method returns Result.Success()
+```
+suspend fun openPuzzle(
+        activity: Activity,
+        puzzleId: String,
+): Result<Unit>
+```
+
 # Logs
 
 The `getLogs` asyncronous method is available to collect device logs and upload to server
