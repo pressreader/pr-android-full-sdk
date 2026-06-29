@@ -173,7 +173,6 @@ Downloaded {
   fun removeAllCallbacks()
 }
 ```
-<br><br><br>
 
 # Article API
 There is a method to open single article view by its ID without downloading whole publication.
