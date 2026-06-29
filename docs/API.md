@@ -135,7 +135,7 @@ val issue = PressReader.instance.catalog.item(cid, date)
 issue.open()
 ```
 the `open` method can return false in case of an error (re-downloading is required in this case).
-<br><br><br>
+<br><br>
 
 # Downloaded
 The management of downloaded catalog items can be done via `downloaded` property of `catalog`
@@ -174,6 +174,12 @@ Downloaded {
 }
 ```
 <br><br><br>
+
+# Article API
+There is a method to open single article view by its ID without downloading whole publication.
+```
+fun openArticle(id: String)
+```
 
 # Logs
 
